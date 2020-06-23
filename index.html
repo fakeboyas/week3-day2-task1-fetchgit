@@ -9,53 +9,54 @@
     <body>
         <form action="" class="add-form">
             <h1>Movie List</h1>
-            <div class="container-1">
-                <div>
-                    <input
-                        type="text"
-                        name="title"
-                        id="title"
-                        placeholder="Title"
-                    />
+            <div>
+                <div class="container-1">
+                    <div>
+                        <input
+                            type="text"
+                            name="title"
+                            id="title"
+                            placeholder="Title"
+                        />
+                    </div>
+                    <div>
+                        <input
+                            type="text"
+                            name="genre"
+                            id="genre"
+                            placeholder="Genre"
+                        />
+                    </div>
                 </div>
-                <div>
-                    <input
-                        type="text"
-                        name="genre"
-                        id="genre"
-                        placeholder="Genre"
-                    />
+                <div class="container-2">
+                    <div>
+                        <input
+                            type="text"
+                            name="releaseDate"
+                            id="releaseDate"
+                            placeholder="Release Date"
+                        />
+                    </div>
+                    <div>
+                        <input
+                            type="text"
+                            name="image"
+                            id="imageLink"
+                            placeholder="Image Link"
+                        />
+                    </div>
                 </div>
-            </div>
-            <div class="container-2">
-                <div>
-                    <input
-                        type="text"
-                        name="releaseDate"
-                        id="releaseDate"
-                        placeholder="Release Date"
-                    />
-                </div>
-                <div>
-                    <input
-                        type="text"
-                        name="image"
-                        id="imageLink"
-                        placeholder="Image Link"
-                    />
-                </div>
-            </div>
 
-            <div class="text-wraper">
-                <textarea
-                    name="sinopis"
-                    id="sinopsis"
-                    cols="65"
-                    rows="10"
-                    class="textArea1"
-                ></textarea>
+                <div class="text-wraper">
+                    <textarea
+                        name="sinopis"
+                        id="sinopsis"
+                        rows="10"
+                        class="textArea1"
+                    ></textarea>
+                </div>
+                <button id="addBtn" class="add-btn" type="button">Add</button>
             </div>
-            <button id="addBtn" class="add-btn" type="button">Add</button>
         </form>
         <div class="container">
             <div class="container1-1" id="content1"></div>
