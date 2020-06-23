@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movie List</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form action="" class="add-form">
+            <h1>Movie List</h1>
+            <div class="container-1">
+                <div>
+                    <input
+                        type="text"
+                        name="title"
+                        id="title"
+                        placeholder="Title"
+                    />
+                </div>
+                <div>
+                    <input
+                        type="text"
+                        name="genre"
+                        id="genre"
+                        placeholder="Genre"
+                    />
+                </div>
+            </div>
+            <div class="container-2">
+                <div>
+                    <input
+                        type="text"
+                        name="releaseDate"
+                        id="releaseDate"
+                        placeholder="Release Date"
+                    />
+                </div>
+                <div>
+                    <input
+                        type="text"
+                        name="image"
+                        id="imageLink"
+                        placeholder="Image Link"
+                    />
+                </div>
+            </div>
+
+            <div>
+                <textarea
+                    name="sinopis"
+                    id="sinopsis"
+                    cols="65"
+                    rows="10"
+                ></textarea>
+            </div>
+            <button id="addBtn" class="add-btn" type="button">Add</button>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
