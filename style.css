@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
 body {
     background-color: beige;
 }
@@ -7,8 +9,12 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
+h1 {
+    font-family: "Press Start 2P", cursive;
+}
 .container-1 {
     display: flex;
     flex-direction: row;
@@ -19,7 +25,15 @@ body {
 }
 
 .add-btn {
-    width: 300px;
+    background-color: #4caf50; /* Green */
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 39%;
 }
 
 .container1-1 {
@@ -28,6 +42,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    margin-top: 40px;
 }
 .display-card {
     display: flex;
@@ -82,11 +97,14 @@ body {
     .textArea1 {
         width: 100%;
     }
-}
-.add-btn {
-    width: 200px;
-}
+    .add-btn {
+        width: 200px;
+    }
 
-textarea {
-    width: 100%;
+    h1 {
+        font-size: 20px;
+    }
+    textarea {
+        width: 100%;
+    }
 }
