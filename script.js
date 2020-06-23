@@ -25,6 +25,7 @@ async function register() {
 
         let response = await fetch(url, options);
         let result = await response.json();
+        window.location.reload();
     } catch (error) {
         console.error(error);
     }
